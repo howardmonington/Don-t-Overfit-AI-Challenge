@@ -3,4 +3,4 @@ This is a coding challenge that I participated in. The challenge is to not overf
 
 My code can also be accessed on Kaggle at: https://www.kaggle.com/lukemonington/don-t-overfit-ii-gridsearch
 
-In this project, the dataset was unbalanced with almost twice as many positive examples as negative examples, so I applied Synthetic Minority Over-sampling (SMOTE). Then, in order to train my model, I used GridSearchCV to test different parameters and classifiers in order to find the most accurate model. I tested the RandomForestClassifier, SVC, and KNeighborsClassifier. The most accurate classifier was SVC.
+In this project, the dataset was unbalanced with almost twice as many positive examples as negative examples, so I applied Synthetic Minority Over-sampling (SMOTE) in order to make the dataset more balanced. Then, in order to train my model, I used GridSearchCV to test different parameters and classifiers in order to find the most accurate model. I tested the RandomForestClassifier, SVC, and KNeighborsClassifier. The most accurate classifier was SVC.
