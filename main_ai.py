@@ -30,5 +30,5 @@ submission['target'] = pred
 
 
 path = r'C:\Users\lukem\Desktop\Github AI Projects\Submissions\don-t overfit ii ai challenge\ '
-submission.to_csv(path + 'master_branch_v1.csv')
+submission.to_csv(path + 'master_branch_v1.csv', index=False)
 
