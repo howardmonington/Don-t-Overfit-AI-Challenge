@@ -24,11 +24,10 @@ clf = xgb.XGBClassifier(
 
 clf.fit(train, y)
 
-pred = clf.predict(test)
-pred = pd.DataFrame(pred)
+pred = pd.DataFrame(clf.predict(test), dtype='int64')
 submission = pd.DataFrame(test['id'])
-
 submission['target'] = pred
+
 
 path = r'C:\Users\lukem\Desktop\Github AI Projects\Submissions\don-t overfit ii ai challenge\ '
 submission.to_csv(path + 'master_branch_v1.csv')
