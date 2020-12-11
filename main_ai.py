@@ -12,12 +12,11 @@ y = train.target
 train = train.drop('target', axis = 1)
 
 clf = xgb.XGBClassifier(
-    n_estimators=500,
-    max_depth=9,
+    n_estimators=50,
+    max_depth=3,
     learning_rate=0.05,
     subsample=0.9,
     colsample_bytree=0.9,
-    missing=-999,
     random_state=2019,
     tree_method='gpu_hist'  # THE MAGICAL PARAMETER
 )
