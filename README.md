@@ -1,4 +1,4 @@
-# Don-t-Overfit-AI-Challenge
+# Don't Overfit AI Challenge
 
 #### -- Project Status: [Completed]
 
