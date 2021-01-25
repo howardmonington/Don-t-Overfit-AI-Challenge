@@ -1,4 +1,4 @@
-# Don-t-Overfit-AI-Challenge-with-GridSearch
+# Don-t-Overfit-AI-Challenge
 
 #### -- Project Status: [Completed]
 
