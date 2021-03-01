@@ -27,6 +27,16 @@ This is a Kaggle coding challenge that I participated in. The challenge is to no
 ## Project Description
 In this project, the dataset was unbalanced with almost twice as many positive examples as negative examples, so I applied Synthetic Minority Over-sampling (SMOTE) in order to make the dataset more balanced. Then, in order to train my model, I used used functions to test different classifiers in order to find the most accurate model. I tested the RandomForestClassifier, SVC, and KNeighborsClassifier. The most accurate classifier was SVC.
 
-
 ### Dataset Location
 The Raw Data can be found [here](https://www.kaggle.com/c/dont-overfit-ii)
+
+## Featured Notebooks/Analysis/Deliverables
+* [Notebook](https://github.com/lukemonington/Don-t-Overfit-AI-Challenge/blob/master/don-t-overfit-ii.ipynb)
+
+
+## Contributing Members
+
+**[Luke Monington](https://github.com/lukemonington)**
+
+## Contact
+* I can be reached at lukemonington@aol.com.
