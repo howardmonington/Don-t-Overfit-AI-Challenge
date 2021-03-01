@@ -3,7 +3,7 @@
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-This is a Kaggle coding challenge that I participated in. The challenge is to not overfit to a dataset with 300 features that has only 250 rows of training data which is used to predict the 19,750 rows of test data.
+This is a coding challenge. The challenge is to not overfit to a dataset with only 300 features and 250 observations of training data, while predicting 19,750 rows of test data.
 
 
 ### Methods Used
